@@ -1,6 +1,6 @@
 #Steps:
 
-1. - Generate data files from python scripts (as we did not found any good datasets for problem we were working on). We have used datasets with 5 lakhs records per file.
+1. - Generate data files from python scripts.
 1. - Use pig scripts to process the data and extract important information in structured format and store it in txt files,upload the files to HDFS.
 1. - Store the processed data in structured format in hive tables.
 1. - Use hive queries to extract valuable insights from the data such as top 5 products purchased, distribution of payment methods etc.
