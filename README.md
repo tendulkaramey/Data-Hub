@@ -45,3 +45,38 @@ based on how many files pig generates, you need to add those many to hdfs.
 now first run the initialisehive.hiveql which will create database and table into your system.
 then run hiveinsert.hiveql which will insert pig output data to hive tables.
 
+
+#Step 4:
+
+now run the hive queries and store the output into folder called hiveoutputs.
+
+queries and their output filename are:
+1. adv1.hiveql  --> a1.txt
+1. adv2.hiveql -->  a2.txt
+1. adv3.hiveql -->  a3.txt 
+1. productquery.hiveql --> p1.txt
+1. productquery1.hiveql --> p2.txt
+1. productquery2.hiveql --> p3.txt
+1. productquery3.hiveql --> p4.txt
+1. productquery4.hiveql --> p5.txt
+1. ser1.hiveql  --> s1.txt
+1. ser2.hiveql -->  s2.txt
+1. ser3.hiveql -->  s3.txt
+
+#Step 5:
+
+now run the python script called  pythonmysql.py which will collect hive output and store in mysqldatabase.
+you would need to setup the database connection mentioned in script based on parameters in your system.
+
+#Step 6:
+
+- install django,python
+- django project is in djangohive
+- run the following commands:
+- python manage.py migrate which will create tables into database.
+- python manage.py runserver which will start the server
+- now go to localhost:8000/dashboard  which is starting page of application.
+
+#Step 7:
+you can setup cron jobs/schedulers to automate the above steps in your system.
+
