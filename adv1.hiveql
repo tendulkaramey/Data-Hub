@@ -1,0 +1,3 @@
+select count(*) from ecommercedata.advertise;
+select count(*) from ecommercedata.advertise where conversion = "YES";
+select count(distinct(userid)) from ecommercedata.advertise;

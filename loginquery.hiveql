@@ -1,0 +1,3 @@
+select count(*) as logincount from nosqlproject.t2 where operation = 'LOGIN';
+
+select count(*) as logoutcount from nosqlproject.t2 where operation = 'LOGOUT';

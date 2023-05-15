@@ -1,0 +1,2 @@
+select count(*) from ecommercedata.auth where operation = "LOGIN";
+select count(*) from ecommercedata.auth where operation = "LOGOUT";

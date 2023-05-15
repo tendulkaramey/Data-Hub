@@ -1,0 +1,1 @@
+select region,count(*) from ecommercedata.productpurchase group by region;

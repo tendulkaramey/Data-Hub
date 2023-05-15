@@ -1,0 +1,5 @@
+/api/cart	83760
+/api/users/profile	83756
+/api/logout	83278
+/api/order	83089
+/api/login	82879

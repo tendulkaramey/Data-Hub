@@ -1,0 +1,6 @@
+select count(*) from ecommercedata.productpurchase where logdate = "2023-05-07";
+select count(*) from ecommercedata.productview where logdate = "2023-05-07";
+select count(*) from ecommercedata.cart where logdate = "2023-05-07" and operation="CART-ADD";
+select count(*) from ecommercedata.cart where logdate = "2023-05-07" and operation="CART-REMOVE";
+select count(distinct coupon) from ecommercedata.productpurchase;
+select count(distinct coupon) from ecommercedata.productpurchase;

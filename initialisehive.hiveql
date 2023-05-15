@@ -1,0 +1,14 @@
+create database if not exists ecommercedata;
+
+create table if not exists ecommercedata.productview(userid string, age integer, region string, productid integer, productname string, logdate string, logtime string)ROW FORMAT DELIMITED FIELDS TERMINATED BY ' '; 
+
+create table if not exists ecommercedata.productpurchase(userid string, age integer, region string, productid integer, productname string, logdate string, logtime string, orderid string, coupon string, payment string)ROW FORMAT DELIMITED FIELDS TERMINATED BY ' '; 
+
+create table if not exists ecommercedata.cart(userid string, age integer, region string, productid integer, productname string, logdate string, logtime string , operation string)ROW FORMAT DELIMITED FIELDS TERMINATED BY ' '; 
+
+create table if not exists ecommercedata.auth(userid string, operation string, logdate string, logtime string)ROW FORMAT DELIMITED FIELDS TERMINATED BY ' '; 
+
+create table if not exists ecommercedata.advertise(logdate string, logtime string, userid string, age integer, gender string, region string, medium string, campaign string, source string, conversion string)ROW FORMAT DELIMITED FIELDS TERMINATED BY ' '; 
+
+create table if not exists ecommercedata.serverlogs(api string, method string, status string, logdate string, logtime string, userid string, loglevel string)ROW FORMAT DELIMITED FIELDS TERMINATED BY ' '; 
+

@@ -1,0 +1,1 @@
+select productname,count(*) from ecommercedata.productpurchase group by productname order by count(*) desc limit 5;

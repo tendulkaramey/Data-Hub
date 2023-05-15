@@ -1,0 +1,16 @@
+set hivevar:DATE=2023-05-15;
+
+load data inpath '/ecommercedata/logindata/${DATE}-0.txt' into table ecommercedata.auth;
+load data inpath '/ecommercedata/cartdata/${DATE}-0.txt' into table ecommercedata.cart;
+load data inpath '/ecommercedata/purchasedata/${DATE}-0.txt' into table ecommercedata.productpurchase;
+load data inpath '/ecommercedata/pviewdata/${DATE}-0.txt' into table ecommercedata.productview;
+
+load data inpath '/ecommercedata/logindata/${DATE}-1.txt' into table ecommercedata.auth;
+load data inpath '/ecommercedata/cartdata/${DATE}-1.txt' into table ecommercedata.cart;
+load data inpath '/ecommercedata/purchasedata/${DATE}-1.txt' into table ecommercedata.productpurchase;
+load data inpath '/ecommercedata/pviewdata/${DATE}-1.txt' into table ecommercedata.productview;
+
+load data inpath '/ecommercedata/advertisedata/${DATE}-0.txt' into table ecommercedata.advertise;
+load data inpath '/ecommercedata/advertisedata/${DATE}-1.txt' into table ecommercedata.advertise;
+
+load data inpath '/ecommercedata/serverdata/${DATE}-0.txt' into table ecommercedata.serverlogs;

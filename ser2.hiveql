@@ -1,0 +1,1 @@
+select api,count(*) from ecommercedata.serverlogs group by api order by count(*) desc limit 5;

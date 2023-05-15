@@ -1,0 +1,1 @@
+select status,count(*) from ecommercedata.serverlogs group by status;

@@ -1,0 +1,1 @@
+select campaign,count(*) from ecommercedata.advertise group by campaign order by count(*) desc limit 5;

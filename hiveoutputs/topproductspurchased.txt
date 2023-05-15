@@ -1,0 +1,6 @@
+Samsung	8
+Apple	6
+Nikon	3
+ASUS	2
+OnePlus	2
+Nokia	2

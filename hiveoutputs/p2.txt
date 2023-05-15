@@ -1,0 +1,5 @@
+ASUS-Vivobook-16X	1758
+Samsung-Galaxy-Watch5	1749
+Apple-2021-MacBook-Air	1731
+Nokia-G21	1728
+Lenovo-Calling-Tab-M8Lenovo-M10	1723

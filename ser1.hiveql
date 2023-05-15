@@ -1,0 +1,3 @@
+select count(*) from ecommercedata.serverlogs;
+select count(*) from ecommercedata.serverlogs where status ="500";
+select count(distinct userid) from ecommercedata.serverlogs;
